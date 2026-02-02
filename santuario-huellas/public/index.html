@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!--Para adaptarlo a cualquier pantalla-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Santuario de las Huellas</title>
+    <!--Enlazo la hoja de estilo css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<script type="module" src="./index.js"></script>
+	
+   <header class="site-header">
+  <div class="container">
+    <!-- Izquierda: logo -->
+    <a href="index.html" class="logo">
+      <img src="imagenes/logo.png" alt="El Santuario de las Huellas">
+    </a>
+
+    <!-- Centro: navegación -->
+    <nav class="main-nav" aria-label="Principal">
+      <ul>
+        <li><a class="is-active" href="index.html">Inicio</a></li>
+        <li><a href="animales.html">Nuestros peludos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li id="optionAdmin"><a href="admin.html">Admin</a></li>
+      </ul>
+    </nav>
+
+    <!-- Derecha: login -->
+   <a href="login.html" class="login-link" id="botonLogin">Login</a>
+   <a href="#" class="login-link" id="botonLogout">Cerrar sesión</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <!-- Texto izquierda -->
+    <div class="hero-text">
+      <h1>Haz espacio en tu corazón y en tu sofá</h1>
+      <p>Rescatamos, cuidamos y encontramos hogares para quienes más lo necesitan.</p>
+    </div>
+
+    <!-- Imagen derecha -->
+    <div class="hero-image">
+      <img src="imagenes/banner.png" alt="Perro en adopción">
+    </div>
+  </div>
+</section>
+
+   <section id="adopcion" class="adopcion">
+  <div class="adopcion-container">
+    <header class="adopcion-header">
+      <h2>Nuestros peludos en adopción</h2>
+      <p>Estos peludos acaban de unirse a nuestra familia y sueñan con encontrar la suya.</p>
+    </header>
+
+    <!-- Tarjetas para los animales-->
+    <div class="adopcion-grid">
+      <!-- Tarjeta 1 -->
+      <article class="pet-card" id="primera-tarjeta">
+      </article>
+	  <!-- Tarjeta 2 -->
+      <article class="pet-card" id="segunda-tarjeta">
+      </article>
+	  <!-- Tarjeta 3 -->
+      <article class="pet-card" id="tercera-tarjeta">
+      </article>
+    </div>
+  </div>
+
+</section>
+
+<!--Seccion como adoptar-->
+<section id="como-adoptar" class="como-adoptar">
+  <div class="como-container">
+    <header class="como-header">
+      <h2>Cómo adoptar</h2>
+      <p>Adoptar es un acto de amor. Te acompañamos en cada paso para que tu nuevo amigo llegue a casa con seguridad y felicidad.</p>
+    </header>
+
+    <div class="como-pasos">
+      <!-- Paso 1 -->
+      <article class="paso">
+        <div class="paso-icono">🐶</div>
+        <h3>1. Conócelos</h3>
+        <p>Visita el refugio o consulta nuestros peluditos online para descubrir quién te roba el corazón.</p>
+      </article>
+
+      <!-- Paso 2 -->
+      <article class="paso">
+        <div class="paso-icono">❤️</div>
+        <h3>2. Enamórate</h3>
+        <p>Pasa tiempo con ellos y deja que su cariño te convenza. Nuestros voluntarios te ayudarán a encontrar la mejor conexión.</p>
+      </article>
+
+      <!-- Paso 3 -->
+      <article class="paso">
+        <div class="paso-icono">🏡</div>
+        <h3>3. Adopta</h3>
+        <p>Completamos el proceso de adopción para que tu nuevo compañero empiece una vida llena de amor y cuidados contigo.</p>
+      </article>
+    </div>
+  </div>
+</section>
+<!-- Footer -->
+<footer class="site-footer">
+  <p>© 2025 El Santuario de las Huellas — Todos los derechos reservados.</p>
+</footer>
+
+
+</body>
+</html>
+
